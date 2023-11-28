@@ -1,0 +1,76 @@
+body{
+    background-image: url(/img/Panoramic\ View\ of\ the\ Mountain\ Landscape\ with\ Fog\ in\ the\ Valley\ Below\ with\ the\ Alpenglow\ Blue\ Sky\ and\ Rising\ Sun\ Stock\ Vector\ -\ Illustration\ of\ nature\,\ calm\ 90053343.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+
+    #navbar{
+    background-color: aliceblue;
+    height: 30%;
+    width: 100%;
+    }
+    #barraa{
+        transition: color 0.3s ease-in-out;
+    }
+    .barraa:hover{
+        color: #ff0000;
+        transform: translateX(5px);
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul{
+        display: flex;
+        justify-content:space-evenly;
+        list-style:none;
+        padding: 5px;
+        background-color: rgb(92, 38, 157);
+    }
+    
+    a{
+        text-decoration:none;
+        color:crimson;
+    }
+    
+    .navbar ul li{
+        margin-top: 40px;
+    }
+    
+    #img{
+    height: 100px;
+    width: 100px;
+    }
+    #soft{
+        height: 150px;
+        width: 150px;
+        padding-left: 45%;
+    }
+    h1{
+        color: white;
+    }
+    footer{
+        text-align: center;
+        background-color: aliceblue;
+        position: absolute;
+        width: 100%;
+        height: 11%;
+    
+    }
+    #imgblog{
+        padding-left: 25%;
+        width: 750px;
+        height: 300px;
+    }
+h2{
+    text-align: center;
+    color: #2941ad;
+}
+h3{
+    text-align: center;
+    color: #000000;
+}
+    @media(max-width: 900px){
+    }

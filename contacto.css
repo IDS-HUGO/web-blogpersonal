@@ -1,0 +1,136 @@
+body{
+    background-image: url(/img/Panoramic\ View\ of\ the\ Mountain\ Landscape\ with\ Fog\ in\ the\ Valley\ Below\ with\ the\ Alpenglow\ Blue\ Sky\ and\ Rising\ Sun\ Stock\ Vector\ -\ Illustration\ of\ nature\,\ calm\ 90053343.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    }
+    
+    #navbar{
+    background-color: aliceblue;
+    height: 30%;
+    width: 100%;
+    }
+    .barraa{
+        transition: color 0.3s ease-in-out;
+    }
+    .barraa:hover{
+        color: #ff0000;
+        transform: translateX(5px);
+    }
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul{
+        display: flex;
+        justify-content:space-evenly;
+        list-style:none;
+        padding: 5px;
+        background-color: rgb(92, 38, 157);
+    }
+    
+    a{
+        text-decoration:none;
+        color:crimson;
+    }
+    
+    .navbar ul li{
+        margin-top: 40px;
+    }
+    
+    #img{
+    height: 100px;
+    width: 100px;
+    }
+    h1{
+        color: rgb(0, 0, 0);
+    }
+#contac{
+text-align: center;
+color: rgb(0, 17, 150);
+}
+#whats{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#what{
+    margin-left: 5%;
+    display: flex;
+}
+#what1{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+#img1{
+    height: 300px;
+    width: 300px;
+}
+
+#insta{
+    margin-top: 2%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#inst{
+    margin-left: 45%;
+    display: flex;
+}
+#insta1{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+#img2{
+    height: 300px;
+    width: 300px;
+}
+
+#facebook{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#face{
+    margin-left: 5%;
+    display: flex;
+}
+#face1{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+#img3{
+    height: 300px;
+    width: 300px;
+}
+
+
+#correo{
+    margin-top: 2%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+#corre{
+    margin-left: 30%;
+    display: flex;
+}
+#correo1{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+#img3{
+    height: 300px;
+    width: 300px;
+}
+footer{
+    text-align: center;
+    background-color: aliceblue;
+    position: absolute;
+    width: 100%;
+    height: 11%;
+
+}
+    @media(max-width: 900px){
+    }
